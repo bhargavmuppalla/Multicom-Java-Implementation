@@ -6,3 +6,9 @@ Execute the program in virtual studio code or any other editor. Before executing
 For generating test results, in the main function of java file, separate functions are created for each test results. Functions named as Test1, Test2… so on.
 
 
+## Amazon data
+Data available on: https://snap.stanford.edu/data/com-Amazon.html
+## DBLP data
+https://snap.stanford.edu/data/com-DBLP.html
+## Youtube data
+Data available on: https://snap.stanford.edu/data/com-Youtube.html
