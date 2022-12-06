@@ -300,6 +300,7 @@ public class App_v2 {
                 }
                 embedding.add(new DoublePoint(embeddingScores));
             }
+            //DBSCANClusterer class is available in commons-math3-3.6.1
             DBSCANClusterer<DoublePoint> dbscan = new DBSCANClusterer<>(0.5, 5);
             List<Cluster<DoublePoint>> y = dbscan.cluster(embedding);
             Map<Integer, ArrayList<Integer>> clusters = new HashMap<>();
